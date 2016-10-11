@@ -51,7 +51,7 @@
 		   map = new ol.Map({                // Parameter: Objekt mit Optionen (*)
 											 // Option 1: Layers (Schichten)
 			  layers: [new ol.layer.Tile({   // Einbinden einer OSM-Karte
-									   source: new ol.source.MapQuest({layer: 'osm'})
+									   source: new ol.source.OSM()
 										})],
 											 // Option 2: View (Ansicht)
 			  view: new ol.View({            // Definition einer Ansicht der Karte
